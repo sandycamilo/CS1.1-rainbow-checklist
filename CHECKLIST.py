@@ -55,10 +55,6 @@ def mark_completed(index):
     checklist[index] = "√" + checklist[index]
     list_all_items()
 
-# def user_input(prompt):
-#     user_input = input(prompt)
-#     return user_input
-
 
 def select(function_code):
     if function_code == "C":
